@@ -4,3 +4,14 @@ for i in list_:
     sum+=i
 avg=sum/len(list_)
 print(avg)
+
+
+-------------------------------------
+
+num=int(input(" enter a number :"))
+sum_total=0
+for i in range(num):
+    number=int(input("enter a number :"))
+    sum_total+=number
+avg= sum_total / num
+print(avg)
