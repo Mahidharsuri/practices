@@ -1,0 +1,6 @@
+n=20
+sum_total=0
+
+for i in range(n+1):
+    sum_total+=i
+print(sum_total)
