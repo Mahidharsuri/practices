@@ -4,3 +4,9 @@ sum_total=0
 for i in range(n+1):
     sum_total+=i
 print(sum_total)
+
+--------------------------------------
+
+n=20
+sum_total=(n*(n+1))/2
+print(sum_total)
