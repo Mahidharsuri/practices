@@ -1,0 +1,6 @@
+import math
+
+r= float(input("enter a value :"))
+area= math.pi * pow(r,2)
+
+print(f" area of a circle is : {area}")
