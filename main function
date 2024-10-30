@@ -9,3 +9,17 @@ def main():
 
 if __name__ == '__main__' :
      main()
+
+-----------------------------------------------------
+
+from practices import *
+
+def fav_drink(drink):
+    print(f"favorite drink is : {drink}")
+def main():
+    fav_food("pappu","rasam")
+    fav_drink("coca cola")
+    #fav_food("rasam")
+
+if __name__ == '__main__' :
+     main()
