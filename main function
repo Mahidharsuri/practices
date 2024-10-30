@@ -1,0 +1,11 @@
+def fav_food(food,curry):
+    print(f"favorite food is : {food}")
+    #print(f"favorite curry is : {curry}")
+def main():
+
+    print("Running practices ")
+    fav_food("biriyani","rasam")
+    #fav_food("rasam")
+
+if __name__ == '__main__' :
+     main()
