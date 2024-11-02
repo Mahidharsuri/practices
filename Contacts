@@ -1,0 +1,32 @@
+contacts = {}
+
+def add_contact(name, phone):
+    contacts[name] = phone
+    print(f"Added {name} with phone number {phone}.")
+
+def view_contacts():
+    for name, phone in contacts.items():
+        print(f"{name}: {phone}")
+
+def delete_contact(name):
+    if name in contacts:
+        del contacts[name]
+        print(f"Deleted contact: {name}")
+    else:
+        print("Contact not found.")
+
+while True:
+    choice = input("Choose: add/view/delete/quit: ")
+    if choice == "add":
+        name = input("Enter name: ")
+        phone = input("Enter phone number: ")
+        add_contact(name, phone)
+    elif choice == "view":
+        view_contacts()
+    elif choice == "delete":
+        name = input("Enter name to delete: ")
+        delete_contact(name)
+    elif choice == "quit":
+        break
+    else:
+        print("Invalid choice.")
