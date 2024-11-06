@@ -1,0 +1,15 @@
+def kids(*men,**kid):
+    for kidd in kid.values():
+        print(kidd)
+    for name in men :
+        print("-".join(name))
+    
+
+
+
+
+
+kids("yogi","Ranjith","Samba",name1="max",name2="mahidhar")
+
+
+
