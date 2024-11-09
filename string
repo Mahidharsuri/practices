@@ -6,3 +6,13 @@ while i>=0:
     reverse+=string[i]
     i-=1
 print(reverse)
+
+---------------------------
+string="marvel"
+reverse=""
+i=len(string)-1
+while i>=0:
+    print(string[i])
+    reverse+=string[i]
+    i-=1
+print(reverse)
