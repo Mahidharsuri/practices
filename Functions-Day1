@@ -1,0 +1,22 @@
+
+
+function Card(){
+    function addingTwoNumbers(){
+        console.log("FunctionCard")
+        return "Sudheer"
+        
+    }
+    function printingNumbers(){
+        console.log("Numbers")
+    }
+   return(
+    <div>
+    <button onClick={addingTwoNumbers} >Click Here</button>
+    {addingTwoNumbers()}
+    <input onChange={printingNumbers} type="text" />
+    <h1 onMouseEnter={printingNumbers}>Sudheer Kumar</h1>
+    <h1 onMouseLeave={printingNumbers}>Sudheer Kumar</h1>
+   </div>
+   );
+}
+export default Card;
