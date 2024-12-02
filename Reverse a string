@@ -1,4 +1,4 @@
 first_name=input("enter first_name :")
 last_name=input("enter last_name :")
 
-print("Hello " + last_name + " " + first_name )
+print("Hello " + last_name + "   " + first_name )
