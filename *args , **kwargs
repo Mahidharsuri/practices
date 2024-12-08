@@ -9,7 +9,7 @@ def kids(*men,**kid):
 
 
 
-kids("yogi","Ranjith","Samba",name1="max",name2="mahidhar")
+kids("yogi","Ranjith","Samba", name1="max",name2="mahidhar")
 
 
 def kids(*men,**kid):
