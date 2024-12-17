@@ -1,2 +1,2 @@
-sport=["cricket","vollyball","hockey","kabaddi"]
+sport=["cricket","vollyball", "hockey","kabaddi"]
 print(sport[0],sport[-1])
