@@ -7,7 +7,7 @@ while i>=0:
     i-=1
 print(reverse)
 
----------------------------
+----------------------------
 string="marvel"
 reverse=""
 i=len(string)-1
