@@ -16,3 +16,4 @@ while i>=0:
     reverse+=string[i]
     i-=1
 print(reverse)
+ 
