@@ -11,7 +11,7 @@ def view_contacts():
 def delete_contact(name):
     if name in contacts:
         del contacts[name]
-        print(f"Deleted contact: {name}")
+        print(f"Deleted contact: {name}")  
     else:
         print("Contact not found.")
 
